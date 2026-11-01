@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Colab
+.config/
+sample_data/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# DVC cache
+.dvc/cache/
+
+# Temporary files
+.ipynb_checkpoints/
+*.log
+
+
+# DVC tracked datasets
+/Customers.csv
+/SALES.csv
+/products.csv
